@@ -1,5 +1,7 @@
 import React from 'react';
 import resume from '../assets/Resume.pdf';
+import { FaPaperclip } from 'react-icons/fa';
+
 const Resume = () => {
   const handleDownload = () => {
     // Create a link element
@@ -18,7 +20,7 @@ const Resume = () => {
 
   return (
     <div>
-      <button onClick={handleDownload}>Download Resume</button>
+      <button onClick={handleDownload}> <FaPaperclip className='FaRocket' /> Download Resume</button>
     </div>
   );
 };
