@@ -3,6 +3,7 @@ import data from '../restApi.json';
 import { FaHandPointDown, FaMapPin, FaPaperclip, FaPen, FaPinterest, FaRocket, FaThumbtack } from 'react-icons/fa';
 import './css/comp-one.css';
 import SocialMediaIcons from './social-link';
+import Resume from './resume';
 
 const Component1 = () => {
     const [line, setLine] = useState('');
@@ -56,9 +57,7 @@ const Component1 = () => {
                     <p>Let me help you with your products so that they will stand out in the market.</p>
                     <div className="header-container">
                         <div className="header-toggle-buttons">
-                            <button variant="light" className='connect-wallet-btn' >
-                                <FaPaperclip className='FaRocket' />  Resume
-                            </button>
+                             <Resume/>
 
                         </div>
                     </div>
