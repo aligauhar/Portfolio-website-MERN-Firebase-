@@ -6,10 +6,11 @@ import NotFound from './Pages/NotFound/NotFound';
 import Success from './Pages/Success/Success';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
-
+import "./components/css/image-scroller.css";
 const App = () => {
+
   return (
-    <>
+    <div >
       <Router>
         <Routes>
           <Route path='/' element={<Home/>}/>
@@ -18,7 +19,7 @@ const App = () => {
         </Routes>
         <Toaster/>
       </Router>
-    </>
+      </div>
   )
 }
 

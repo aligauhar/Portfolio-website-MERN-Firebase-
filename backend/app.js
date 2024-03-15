@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use("/api/v1/form", reservationRouter);
+app.use(process.env.FORM_URI, reservationRouter);
 app.get("", (req, res, next) => {
   return res.status(200).json({
     success: true,

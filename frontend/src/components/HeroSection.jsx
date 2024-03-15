@@ -1,31 +1,54 @@
-// CustomNavbar.jsx
-import React from 'react';
+// HeroSection.jsx
+import React, { useContext } from "react";
+import { Navbar, Nav, Button } from "react-bootstrap";
+import {  FaThemeisle } from "react-icons/fa";
+import { ThemeContext } from "../Theme";
+import Resume from './resume';
 
-// Your React component code...
+import "./css/HeroSection.css";
+const NavbarComponent = () => {
+  const { theme, toggleTheme, gradiant, toggleGradiant } = useContext(ThemeContext);
 
-const CustomNavbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" style={{ backdropFilter: 'blur(10px)', backgroundColor: 'rgba(173, 216, 230, 0.5)' }}>
-      <img className='nav-img' src="main.PNG" alt="" />
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav ml-auto">
-        <li className="nav-item">
-            <a className="nav-link" href="#Body-sec">Body</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#Form-sec">Form</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#Footer-sec">Footer</a>
-          </li>
-          
-        </ul>
+    <Navbar collapseOnSelect expand="lg" className="navbar-custom-wrapper">
+      <div>
+        <img
+          src="main.png"
+          width="30"
+          height="30"
+          className="d-inline-block align-top grayscale-image"
+          alt="Logo"
+        />
       </div>
-    </nav>
+      <div className="navlinks col-md-7">
+        <a href="#experties " className="seperator nav-link">Experties</a>
+        <a href="#portfolio " className="seperator nav-link">Portfolio</a> 
+        <a href="#contact" className="nav-link">Contact</a> 
+      </div>
+    
+      <Navbar.Toggle aria-controls="responsive-navbar-nav toggle-btn" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        
+        <Nav>
+            <Resume/>
+       
+        </Nav>
+        <div className="header-container">
+        <div className="header-toggle-buttons">
+          <button
+            onClick={() => {
+              toggleTheme();
+              toggleGradiant();
+            }}
+          >
+            <FaThemeisle /> {theme}
+          </button>
+        </div>
+      </div>
+      </Navbar.Collapse>
+      
+    </Navbar>
   );
 };
 
-export default CustomNavbar;
+export default NavbarComponent;
