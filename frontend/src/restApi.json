@@ -1,6 +1,6 @@
 {
   "//": "restApi.json",
-  "BACKEND_URL": "http://localhost:8000/",
+  "BACKEND_URL": "https://portfolio-website-mern.vercel.app",
   "leftSideText": "Defi Quant empowers Trading Bots industry with AI technology for verifiable ownership of bots and assets and a fair trading ecosystem. Explore new possibilities by investing of the assets. Join the revolution today!",
   "leftSideHead": "Become A part of Our Quantitative bot trading Revolution",
   "c2head":"Embark on an Exciting Journey...",
