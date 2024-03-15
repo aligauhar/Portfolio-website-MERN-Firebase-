@@ -9,7 +9,7 @@ const getTheme = () => {
     localStorage.setItem("theme", "dark-theme");
     localStorage.setItem(
       "gradiant",
-      "linear-gradient(41deg, rgba(118,219,201,1) 0%, rgba(26,53,79,1) 47%, rgba(98,21,134,1) 100%)"
+      "linear-gradient(41deg, rgba(0,44,255,1) 0%, rgba(8,9,25,1) 47%, rgba(153,12,31,1) 100%)"
     );
     return "dark-theme";
   } else {
@@ -30,9 +30,9 @@ const ThemeProvider = ({ children }) => {
   function toggleGradiant() {
     setGradient((prevGradient) =>
       prevGradient ===
-      "linear-gradient(41deg, rgba(118,219,201,1) 0%, rgba(26,53,79,1) 47%, rgba(98,21,134,1) 100%)"
-        ? "linear-gradient(41deg, rgba(0,44,255,1) 0%, rgba(8,9,25,1) 47%, rgba(153,12,31,1) 100%)"
-        : "linear-gradient(41deg, rgba(118,219,201,1) 0%, rgba(26,53,79,1) 47%, rgba(98,21,134,1) 100%)"
+      "linear-gradient(41deg, rgba(0,44,255,1) 0%, rgba(8,9,25,1) 47%, rgba(153,12,31,1) 100%)"
+        ? "linear-gradient(41deg, rgba(118,219,201,1) 0%, rgba(26,53,79,1) 47%, rgba(98,21,134,1) 100%)"
+        :"linear-gradient(41deg, rgba(0,44,255,1) 0%, rgba(8,9,25,1) 47%, rgba(153,12,31,1) 100%)"
     );
   }
 
