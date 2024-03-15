@@ -20,7 +20,7 @@ const Resume = () => {
 
   return (
     <div>
-      <button onClick={handleDownload}> <FaPaperclip className='FaRocket' /> Download Resume</button>
+      <button onClick={handleDownload}> <FaPaperclip className='FaRocket' /> Resume</button>
     </div>
   );
 };
