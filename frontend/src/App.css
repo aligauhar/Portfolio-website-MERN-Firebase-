@@ -224,3 +224,7 @@ div#Form-sec {
 div#Form-sec {
     margin-bottom: 30px;
 }
+
+div#responsive-navbar-nav button {
+    margin-right: 21px;
+}
