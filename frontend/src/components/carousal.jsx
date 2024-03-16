@@ -8,19 +8,19 @@ function MyCarousel() {
             <Carousel.Item>
                 <div class="card-deck">
                     <div class="card col-md-3">
-                        <img className='carousal-img' src="law-assistant1.PNG" alt="" />
+                        <img className='carousal-img' src="Quant-1.PNG" alt="" />
                     </div>
                     <div className="col-md-1">
 
                     </div>
                     <div class="card col-md-3">
-                        <img className='carousal-img' src="law-assistant2.PNG" alt="" />
+                        <img className='carousal-img' src="Quant-2.PNG" alt="" />
                     </div>
                     <div className="col-md-1">
 
                     </div>
                     <div class="card col-md-3">
-                        <img className='carousal-img' src="law-assistant3.PNG" alt="" />
+                        <img className='carousal-img' src="Quant-3.PNG" alt="" />
                     </div>
                 </div>
 
@@ -31,7 +31,7 @@ function MyCarousel() {
                 <h3 className='carousal-heading'>Defi Quant - Decentralized Investor Plateform</h3>
                 <p>A projects is based on a business idea of show casing the Quant Trading bot strategies and history The website aims to show the historic success and profit made by the financial bots and attract user investment The user can buy portfolio management on his investment by paying some fees, payment integration Is being done The user will have to open the forex or crypto account and give the API or credentials  Through API account data will be sent to the software where bots are being running to copy the trades of bots</p>
 
-                  <a href="https://quant-trading-bots-mern-ft79/" target='_blank'>
+                  <a href="https://quant-trading-bots-mern-frnt125.vercel.app/" target='_blank'>
                 <button>
                      Check it Out <FaRocket/>
                 </button>
