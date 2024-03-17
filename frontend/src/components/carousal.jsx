@@ -31,7 +31,7 @@ function MyCarousel() {
                 <h3 className='carousal-heading'>Defi Quant - Decentralized Investor Plateform</h3>
                 <p>A projects is based on a business idea of show casing the Quant Trading bot strategies and history The website aims to show the historic success and profit made by the financial bots and attract user investment The user can buy portfolio management on his investment by paying some fees, payment integration Is being done The user will have to open the forex or crypto account and give the API or credentials  Through API account data will be sent to the software where bots are being running to copy the trades of bots</p>
 
-                  <a href="https://quant-trading-bots-mern-frnt125.vercel.app/" target='_blank'>
+                  <a href="https://quant-trading-bots-mern.vercel.app/" target='_blank'>
                 <button>
                      Check it Out <FaRocket/>
                 </button>
