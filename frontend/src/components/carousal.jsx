@@ -69,7 +69,7 @@ function MyCarousel() {
                     (reinforcement), Utilizing thread, it automatically retrains the model every 4th hour on new feedbacks making it more better, This projects
                     aims to first launch among the Lawyers that make it learn through feedbacks and then to the public.
                 </p>
-                  <a href="http://54.151.2.29/" target='_blank'>
+                  <a href="http://54.183.204.221/chat.html" target='_blank'>
                 <button>
                      Check it Out <FaRocket/>
                 </button>
