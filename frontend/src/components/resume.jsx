@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../assets/Resume.pdf';
+import resume from './assets/Resume.pdf';
 import { FaPaperclip } from 'react-icons/fa';
 
 const Resume = () => {
